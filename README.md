@@ -68,7 +68,7 @@ npm run dev
 
 ## 📸 Screenshot
 
-![AETHER Platform]([https://profound-mooncake-667058.netlify.app/screenshot.png](https://i.ibb.co/7NJ4fYSf/Screenshot-2025-07-15-170219.png)) <!-- Optional: replace with actual image if hosted -->
+![AETHER Platform](https://i.ibb.co/7NJ4fYSf/Screenshot-2025-07-15-170219.png) <!-- Optional: replace with actual image if hosted -->
 
 ---
 

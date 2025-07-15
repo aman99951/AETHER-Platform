@@ -9,7 +9,7 @@ A modern AI-powered case management dashboard with modules for ingestion, model 
 
 ## 🚀 Live Demo
 
-🔗 [View Live App](https://profound-mooncake-667058.netlify.app/dashboard/overview)
+🔗 [View Live App](https://aether-platform-omega.vercel.app/)
 
 ## 🧩 Features
 

@@ -48,7 +48,7 @@ src/
 
 ## 🧪 Getting Started
 
-```bash
+
 # Clone the repo
 git clone https://github.com/aman99951/AETHER-Platform.git
 cd AETHER-Platform

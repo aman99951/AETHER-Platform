@@ -1,69 +1,88 @@
-# React + TypeScript + Vite
+Here’s a clean and professional `README.md` content for your **AETHER Platform** project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# AETHER Platform 🌐
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern AI-powered case management dashboard with modules for ingestion, model explainability, active learning, and system monitoring — built using **React**, **Tailwind CSS**, **TypeScript**, and **React Router**.
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔗 [View Live App](https://profound-mooncake-667058.netlify.app/dashboard/overview)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧩 Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 📊 **Dashboard Overview**: Quick view of system activity, recent actions, and shortcuts.
+- 📥 **Case Ingestion**: Upload files, monitor batch progress, and configure routing rules.
+- 🧠 **AI Processing**:
+  - Enable/disable AI pipelines (text, video, audio).
+  - Configure confidence thresholds.
+  - Visualize model decisions with SHAP/Captum overlays.
+  - Tune active learning strategies.
+  - Simulate edge inference.
+  - Track feedback loop usage.
+- 🔒 **Modular Layout**: Sidebar, topbar, scroll restoration, and route-specific tabs.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tech Stack
+
+- **React + TypeScript**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Lucide Icons**
+
+## 📂 Project Structure
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+src/
+├── components/
+│   ├── layout/         # Sidebar, Topbar, Layout
+│   ├── dashboard/      # Dashboard modules
+│   ├── ingestion/      # Upload/Batches/Routing
+│   └── aiProcessing/   # All AI-related UI
+├── App.tsx             # Routes & structure
+├── main.tsx            # Entry point
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+````
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🧪 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/aman99951/AETHER-Platform.git
+cd AETHER-Platform
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+````
+
+## 🔗 GitHub
+
+📁 [GitHub Repository](https://github.com/aman99951/AETHER-Platform)
+
+---
+
+## 📸 Screenshot
+
+![AETHER Platform]([https://profound-mooncake-667058.netlify.app/screenshot.png](https://i.ibb.co/7NJ4fYSf/Screenshot-2025-07-15-170219.png)) <!-- Optional: replace with actual image if hosted -->
+
+---
+
+## 📌 Notes
+
+* Auto scroll-to-top on page change
+* Clean modular codebase
+* Easily extendable for more AI modules or user roles
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by [Aman Kumar](https://github.com/aman99951)
+
 ```
+

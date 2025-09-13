@@ -18,7 +18,7 @@ const MainLayout: React.FC = () => {
   return (
     <div className="flex min-h-screen bg-gray-100">
       {/* Sidebar */}
-      <Sidebar 
+      <Sidebar
         activeModule={activeModule}
         setActiveModule={setActiveModule}
         sidebarOpen={sidebarOpen}
@@ -28,17 +28,14 @@ const MainLayout: React.FC = () => {
       {/* Main content area */}
       <div className="flex-1 flex flex-col">
         {/* TopBar */}
-        <TopBar 
-          setSidebarOpen={setSidebarOpen}
-        />
-              <div className="flex-1 flex flex-col">
-       
+        <TopBar setSidebarOpen={setSidebarOpen} />
+
         {/* Routed Page Content */}
         <main className="flex-1 overflow-auto p-4 lg:p-6">
           <Outlet />
         </main>
 
-                <div> helloo this is working </div>
+        <div>helloo this is working</div>
       </div>
     </div>
   );

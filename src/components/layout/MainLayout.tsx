@@ -32,20 +32,13 @@ const MainLayout: React.FC = () => {
           setSidebarOpen={setSidebarOpen}
         />
               <div className="flex-1 flex flex-col">
-        {/* TopBar */}
-        <TopBar 
-          setSidebarOpen={setSidebarOpen}
-        />
-                      <div className="flex-1 flex flex-col">
-        {/* TopBar */}
-        <TopBar 
-          setSidebarOpen={setSidebarOpen}
-        />
-
+       
         {/* Routed Page Content */}
         <main className="flex-1 overflow-auto p-4 lg:p-6">
           <Outlet />
         </main>
+
+                <div> helloo this is working </div>
       </div>
     </div>
   );

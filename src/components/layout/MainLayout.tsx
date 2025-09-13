@@ -35,7 +35,7 @@ const MainLayout: React.FC = () => {
           <Outlet />
         </main>
 
-        <div>helloo this is working</div>
+        
       </div>
     </div>
   );
